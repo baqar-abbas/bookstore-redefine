@@ -1,3 +1,103 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  background-color: #2e3840;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  min-height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+  padding-left: 5rem;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding-left: 2rem;
+}
+
+.active {
+  text-decoration: underline !important;
+}
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  position: absolute;
+  top: 12%;
+  left: 2rem;
+}
+
+.book-wrap {
+  margin: 5rem 3rem 1rem 2rem;
+  max-width: 100rem;
+  background-color: rgb(255, 255, 251);
+  padding: 1rem;
+}
+
+.book {
+  padding: 10px 0;
+}
+
+.remove {
+  background-color: #009fbd;
+  margin-left: 2rem;
+  width: 6rem;
+  height: 2rem;
+  color: beige;
+}
+
+.form-wrap {
+  width: 100%;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.title, .author-detail {
+  width: 12rem;
+  height: 3rem;
+  margin-left: 5rem;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.author {
+  margin-left: 3rem;
+}
+
+::placeholder {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.submit {
+  margin-left: 15%;
+  position: absolute;
+  width: 8rem;
+  height: 3rem;
+  background-color: #009fbd;
+  color: beige;
 }
