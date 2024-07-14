@@ -34,7 +34,7 @@ const Books = () => {
   };
 
   return (
-    <div>
+    <div className='books'>
       <BookList books={books} />
       <hr />
       <br />

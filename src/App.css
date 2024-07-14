@@ -76,7 +76,8 @@ main {
   width: 100%;
 }
 
-.title, .author-detail {
+.title,
+.author-detail {
   width: 12rem;
   height: 3rem;
   margin-left: 5rem;
